@@ -1,0 +1,83 @@
+* {
+    position:relative;
+    
+    
+}
+
+*::before{
+    content: '';
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background-image: url(kob-lebron.jpg);
+    background-size: outside;
+    background-position: top center;
+    opacity: 0.20;
+}
+
+body {
+    position:relative;
+    margin: 250px;
+    margin-top:20px;
+    border: 5px solid red;
+    height:550px;
+
+}
+
+
+
+
+
+h1 {
+    position:relative;
+    border: 2px solid green;
+    color:green;
+    text-align:center;
+    font-size: 100px;
+    margin:10px;
+    
+}
+.Scores {
+    position:relative;
+    border: 3px solid white;
+    padding:1px;
+    margin-left:50px;
+    margin-right:50px;
+    display:flex;
+    text-align:center;
+}
+
+.Scores  div{
+    margin:2px;
+    width: 600px;
+    height:150px;
+}
+
+.home-buttons, .away-buttons {
+    position:relative;
+    border: 2px solid white;
+    padding:1px;
+    margin:1px;
+    display:inline-block;
+    
+   
+}
+
+#plus-one, #plus-two, #plus-three{
+    display:inline;
+    margin-left:80px;
+    
+    
+}
+
+#score-home, #score-away {
+    font-size:30px;
+    
+    position:relative;
+    display: inline;
+    bottom:100px;
+    right:500px;
+    justify-items:space-between;
+}
